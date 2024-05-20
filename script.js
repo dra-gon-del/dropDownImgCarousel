@@ -31,10 +31,3 @@ dropdowns.forEach(dropdown => {
 
 // image carousel
 
-var i = 0;
-var images = [];
-var time = 3000;
-
-images[0] = 'imgs/img1.jpg';
-images[1] = 'imgs/img2.jpg';
-images[2] = 'imgs/img3.jpg';
