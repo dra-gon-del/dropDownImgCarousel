@@ -7,3 +7,9 @@ dropdowns.forEach(dropdown => {
     const options = dropdown.querySelector('.menu li');
     const selected = dropdown.querySelector('.selected');
 });
+
+select.addEventListener('click', () => {
+    select.classList.toggle('select-clicked');
+    caret.classList.toggle('caret-rotate');
+    menu.classList.toggle('menu-open');
+});
