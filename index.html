@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles.css">
     
 </head>
-<body>
+<body class="dropdownBody">
     <h1 class="title">Dropdown Menu & Image Caousel</h1>
 
     <div class="dropdown">
@@ -22,22 +22,28 @@
             <li>Four</li>
         </ul>
     </div>
+    
+    <div class="imgCarouselDiv">
+        <section aria-label="Newest Photos">
+            <div class="carousel">
+                <button class="carousel-btn-prev"><</button>
+                <button class="carousel-btn-next">></button>
+                <ul>
+                    <li class="slide">
+                        <img src="imgs/img1.jpg" alt="" height="auto" width="700px">
+                    </li>
+                    <li class="slide"data-active>
+                        <img src="imgs/img2.jpg" alt="" height="auto" width="700px">
+                    </li>
+                    <li class="slide">
+                        <img src="imgs/img3.jpg" alt="" height="auto" width="700px">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </div>
     <script defer src="script.js"></script>
 </body>
-    <section aria-label="Newest Photos">
-        <div class="carousel"></div>
-        <button class="carousel-btn-prev"><</button>
-        <button class="carousel-btn-next">></button>
-        <ul>
-            <li class="slide">
-                <img src="imgs/img1.jpg" alt="" height="auto" width="400px">
-            </li>
-            <li class="slide">
-                <img src="imgs/img2.jpg" alt="" height="auto" width="400px">
-            </li>
-            <li class="slide">
-                <img src="imgs/img3.jpg" alt="" height="auto" width="400px">
-            </li>
-        </ul>
-    </section>
+
+    
 </html>

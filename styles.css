@@ -95,3 +95,24 @@ body {
     display: block;
     opacity: 1;
 }
+
+/* // image carousel */
+
+.imgCarouselDiv > *, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.imgCarouselDiv {
+    margin: 0;
+}
+
+.carousel {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.slide {
+    position: absolute;
+    inset: 0;
+}
